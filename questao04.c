@@ -17,9 +17,9 @@ return 0;
 #include <stdlib.h>  
 
 int main() {  
-int var = 52;
-printf("Existem %d semanas no ano.\n", var); 
+    int var = 52;
+    printf("Existem %d semanas no ano.\n", var); 
 
-system("PAUSE");
-return 0;
+    system("PAUSE");
+    return 0;
 }   

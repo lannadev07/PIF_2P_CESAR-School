@@ -13,10 +13,10 @@ int main(){
 
     if (num >= 0){
         raiz = sqrt(num);
-        printf("A raiz de %f é %f.", num, raiz);
+        printf("A raiz de %.1f é %.1f.", num, raiz);
     }else{
         quadrado = pow(num, 2);
-        printf("O quadrado de %f é %f.", num, quadrado);
+        printf("O quadrado de %.1f é %.1f.", num, quadrado);
     }
 
     return 0;
